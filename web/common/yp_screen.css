@@ -1,0 +1,200 @@
+/* Yuki Piano - Screen CSS 
+--------------------------------------------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #c0f3fd url(../imgs/shared/headBg.gif) repeat-x left top;
+  font: 75% "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-align: justify;
+  line-height: 175%;  
+  color: #333;
+}
+
+#header, #mainContWrapper {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* Header
+--------------------------------------------------------------------*/
+
+#header {
+  background: url(../imgs/shared/iconButterfly.jpg) no-repeat left 20%;
+  height: 200px;
+  padding: 50px 0 0 0;
+}
+
+#header h1 {
+  letter-spacing: 6px;
+  padding: 9px 0 0 80px;
+  font-size: 300%;
+}
+
+#header .slogan {
+  float: right;
+  width: auto;
+  text-align: right;
+  padding: 20px 26px 0 0;
+  font-size: 150%;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+#header .pageTitle h2 {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  padding: 135px 0 0 270px;
+  font-size: 200%;
+  color: #feff03;
+}
+
+/* Navigation
+--------------------------------------------------------------------*/
+
+#navPanel {
+  float: left;
+  width: 245px;
+  margin: -130px 0 0 0;
+  color: #feff03;
+}
+
+#navPanel .navTop {
+  background: url(../imgs/shared/navTopBg.gif) no-repeat left top;
+  padding: 20px 0 0 0;
+}
+
+#navPanel .navWrapper {
+  background: url(../imgs/shared/navMainBg.gif) repeat-y left top;
+}
+
+#navPanel .navBottom {
+  background: url(../imgs/shared/navBottomBg.gif) no-repeat left bottom;
+  padding: 0 0 20px 0;
+}
+
+#navPanel .title {
+  background: url(../imgs/shared/iconNavBg.gif) no-repeat left center;
+  padding: 10px 0 0 37px;
+  margin: 0 0 -7px 14px;
+  height: 35px;
+  font-size: 140%;
+}
+
+#navPanel ul {
+  list-style: none;
+  margin: 0 0 0 20px;
+  padding: 0 0 12px 0;
+}
+
+#navPanel li a {
+  display: block;
+  text-decoration: none;
+  padding: 2px 0 2px 16px;
+  color: #fff;
+}
+
+#navPanel li a:before {
+  content: ">> ";
+  color: #feff03;
+}
+
+#navPanel li a:hover {
+  color: #000;
+}
+
+/* Content Wrapper & Main content
+--------------------------------------------------------------------*/
+
+#BgWrapper {
+  background: #c0f3fd url(../imgs/shared/bodyBg.jpg) repeat-x left top;
+}
+
+#mainContWrapper {
+  margin-bottom: 15px;
+}
+
+#contPanel {
+  float: right;
+  width: 505px;
+  min-height: 500px;
+  padding: 25px 25px 15px 20px;
+}
+
+#contPanel p {
+  margin: 0 0 12px 24px;
+}
+
+#contPanel h2 {
+  font-weight: bold;
+}
+
+/* Footer
+--------------------------------------------------------------------*/
+
+#footer {
+  width: auto;
+  height: 100px;
+  background: url(../imgs/shared/footBg.png) repeat-x left top;
+  text-align: center;
+}
+
+#footer p {
+  padding: 50px 0 20px 0;
+}
+
+/* Shared Text & Image Classes
+--------------------------------------------------------------------*/
+
+.imgL, .imgR {
+  border: 4px solid #21354c;
+}
+
+.imgL {
+  float: left;
+  margin: 5px 12px 4px 0;
+}
+
+.imgR {
+  float: right;
+  margin: 5px 0 4px 12px;
+}
+
+/* Typography
+--------------------------------------------------------------------*/
+
+h2, h3 {
+  letter-spacing: 1px;
+  margin: 0 0 12px 0;
+  color: #21354c;
+}
+
+h2 {
+  font-size: 150%;
+}
+
+h3 {
+  font-size: 125%;
+}
+
+/* Links
+--------------------------------------------------------------------*/
+
+a, a:active, a:visited {
+  color: #666;
+}
+
+a:hover {
+  color: #222;
+}
+
+/* --- R O U N D E D   B O R D E R S
+....................................................................*/
+
+.imgL, .imgR {
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
