@@ -1,4 +1,4 @@
-/* Yuki Piano - Screen CSS 
+/* Yuki Piano - Personal Screen CSS 
 --------------------------------------------------------------------*/
 
 * {
@@ -136,9 +136,9 @@ body {
 --------------------------------------------------------------------*/
 
 #footer {
+  background: url(../imgs/shared/footBg.png) repeat-x left top;
   width: auto;
   height: 100px;
-  background: url(../imgs/shared/footBg.png) repeat-x left top;
   text-align: center;
 }
 
@@ -161,6 +161,10 @@ body {
 .imgR {
   float: right;
   margin: 5px 0 4px 12px;
+}
+
+.smFont {
+  font-size: 90%;
 }
 
 /* Typography
